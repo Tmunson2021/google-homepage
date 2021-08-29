@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <head>
     <title>Google</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="http://127.0.0.1:5500/googlehomepage/google-homepage/images/favicon.png"/>
-    <div class="topnav">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png"/>
+    <div class="flex-container">
         <div class="menu">
-            <ul align="left" style="padding-top: 30px;">    
+            <ul>    
                 <li><a href="#About">About</a></li>
                 <li><a href="#Store">Store</a></li>
-            </ul>    
-            <ul align="right" style="margin-top: -30px!important;">
+            </ul>
+        </div>      
+        <div class="menu">  
+            <ul align="right">
                 <li><a href="#Gmail">Gmail</a></li>
                 <li><a href="#Images">Images</a></li>
                 <li><a class="gb_C" aria-label="Google apps" href="https://www.google.com/intl/en/about/products" aria-expanded="false" role="button" tabindex="0"><svg class="gb_Ve" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg></a></li>
@@ -18,7 +21,41 @@
             </ul>
         </div>
     </div>
-    </head>
+</head>
 <body>
-<img src="http://127.0.0.1:5500/googlehomepage/google-homepage/images/logo.png" class="center"/>
+<img src="/images/logo.png" class="center" style="padding-top: 5pc;"/>
+<form align="center">
+    <div class="searchbar" align="center">
+        <img class="search-icon" src="/images/search.png" alt="" />
+        <input class="search-input" type="text" />
+        <button style="background-color: white; border: none;">
+        <img class="microphone-icon" src="/images/google-microphone.png" alt=""/>
+        </button>
+    </div>
+    <input type="submit" value="Google Search">
+    <input type="submit" value="I'm Feeling Lucky">
+</form>
 </body>
+<footer>
+    <div class="flex-container">
+        <div class="menu">
+            <ul align="left">    
+                <li><a href="#Advertising">Advertising</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="How Search Works">How Search Works</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <ul align="center" style="margin-top: auto; margin-bottom: auto";>
+                <li><img src="/images/leaf.png" class="leaf"><a href="Carbon neutral since 2007">Carbon neutral since 2007</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <ul align="right">    
+                <li><a href="#Privacy">Privacy</a></li>
+                <li><a href="#Terms">Terms</a></li>
+                <li><a href="Settings">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
