@@ -1,0 +1,33 @@
+.gb_Ve {
+    height: 25px;
+    color: rgb(0, 0, 0);
+}
+.gb_Ca {
+    border-radius: 50%!important;
+}
+.menu {
+    height: 1pc;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.menu li {
+    display: inline-flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+a {
+    color: black;
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    text-decoration: none;
+  }
+a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  .center{
+      display: block;
+      margin-left: auto;
+      margin-right:auto;
+  }
